@@ -23,7 +23,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Header />
       <div className="container">
         {/* <Sidebar /> */}
-        <main className="">{children}s</main>
+        <main className="">{children}</main>
       </div>
       {/* <Footer /> */}
     </div>

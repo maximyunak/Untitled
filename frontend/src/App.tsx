@@ -11,7 +11,6 @@ export const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        <div className="">ы</div>
       </Layout>
     </>
   );

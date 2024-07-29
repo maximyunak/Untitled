@@ -23,3 +23,7 @@ body {
 .container {
   @apply mx-auto py-5 px-5;
 }
+
+.transform-xy {
+  transform: translate(-50%, -50%);
+}

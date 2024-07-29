@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { useAppDispatch, useAppSelector } from "../../../store/hooks";
 import { openMenu, setRotation } from "./MenuSlice";
 
 export const CloseMenu: React.FC = () => {
-  // const [rotation, setRotation] = useState(0);
-
   const { opened, rotation } = useAppSelector((state) => state.menuSlice);
 
   const dispatch = useAppDispatch();

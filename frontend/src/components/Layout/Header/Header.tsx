@@ -10,7 +10,8 @@ const items = ["Home", "bla", "bla", "bla"];
 export const Header: React.FC = () => {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 780);
+
+  const isMobile = windowWidth < 780;
 
   const dispatch = useAppDispatch();
 
